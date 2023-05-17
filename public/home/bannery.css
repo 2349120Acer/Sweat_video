@@ -1,0 +1,373 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.header-style-1 .header-nav {
+  background: #b5042d;
+}
+.banner{
+    font-family: fantasy;
+    font-weight: 200;
+    margin: 10px 0;
+    text-align: end;
+}
+ .newbook{
+    position: relative;
+    top: -282px;
+    float: right;
+    border-radius: 50%;
+  }
+@media only screen and (min-width: 1029px) {
+ .newbook{
+    position: relative;
+    top: -506px;
+    float: right;
+    border-radius: 50%;
+    }}
+.newpp {
+    border-radius: 50%;
+    position: relative;
+    top: -0.9px;
+    right: 4px;
+    width: 60px;
+    height: 60px;
+}
+.texty{
+    position: relative;
+    top: 154px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+@media only screen and (min-width: 1029px) {
+.texty{
+    position: relative;
+    top: 66px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+}
+@media only screen and (min-width: 1029px) {
+ .newpp{
+    position: relative;
+    float: right;
+    border-radius: 50%;
+    width: 135px;
+    height: 135px;
+    }}
+.p8-quarter, .p3-row-padding>.p3-col {
+    padding: 0px 5px;
+    height: 228px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-top: 0px;
+    margin-bottom: 0%;
+}
+@media only screen and (min-width: 1029px) {
+.p8-quarter, .p3-row-padding>.p3-col {
+    padding: 0px 5px;
+    height: 302px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-top: 7px;
+    margin-bottom: 0%;
+}
+}
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../image/IMG_6835.jpg");
+  height: 38%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.hero-images {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../image/dAMAZON0740.jpg");
+  height: 38%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-bottom: 0%;
+}
+
+.hero-text {
+  text-align: center;
+  position: relative;
+  top: -224px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+@media only screen and (min-width: 1029px) {
+.hero-text {
+  text-align: center;
+  position: relative;
+  bottom: 200px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+    }}
+.hero-text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: #ddd;
+  text-align: center;
+  cursor: pointer;
+}
+
+.hero-text button:hover {
+  background-color: #555;
+  color: white;
+}
+.IcyS1 {
+    position: sticky;
+    top: 0px;
+}
+.Rw6FN {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-position: 50%;
+    background-size: cover;
+}
+@media only screen and (max-width: 429px) {
+.Rw6FN {
+    position: relative;
+    width: 100%;
+    height: 124px;
+    background-position: 50%;
+
+    background-size: cover;
+}
+}
+.centerimg{
+    border-radius: 50%;
+    position: relative;
+    top: 11.1px;
+    left: 7px;
+    width:150px;
+    height:150px;
+}
+@media only screen and (max-width: 429px) {
+.centerimg{
+    border-radius: 50%;
+    position: relative;
+    top: 24.1px;
+    left: 7px;
+    width: 75px;
+    height: 75px;
+}
+}
+.bluey{
+    color: black;
+    background-color: #3dd5f3;
+    border-color: #3dd5f3;
+    border-radius: 4px;
+    position: relative;
+    left: 50%;
+    font-size: 21px;
+}
+@media only screen and (max-width: 429px) {
+.bluey{
+    color: black;
+    background-color: #3dd5f3;
+    border-color: #3dd5f3;
+    border-radius: 4px;
+    position: relative;
+    font-size: 13px;
+}
+}
+._1yhUI {
+    display: block;
+    font-family: fantasy;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.22;
+    letter-spacing: .3px;
+    line-height: normal;
+    color: var(--D8);
+    text-decoration: none;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+ ._2yhUI {
+    display: block;
+    font-family: fantasy;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.22;
+    letter-spacing: .3px;
+    line-height: normal;body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.header-style-1 .header-nav {
+  background: #b5042d;
+}
+.banner{
+    font-family: fantasy;
+    font-weight: 200;
+    margin: 10px 0;
+    text-align: end;
+}
+ .newbook{
+    position: relative;
+    top: -178px;
+    float: right;
+    border-radius: 50%;
+  }
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../image/IMG_6835.jpg");
+  height: 38%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.hero-images {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../image/dAMAZON0740.jpg");
+  height: 38%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-bottom: 0%;
+}
+
+.hero-text {
+  text-align: center;
+  position: relative;
+  bottom: 34px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+@media only screen and (min-width: 1029px) {
+.hero-text {
+  text-align: center;
+  position: relative;
+  bottom: 200px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.hero-text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: #ddd;
+  text-align: center;
+  cursor: pointer;
+}
+
+.hero-text button:hover {
+  background-color: #555;
+  color: white;
+}
+.IcyS1 {
+    position: sticky;
+    top: 0px;
+}
+.Rw6FN {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-position: 50%;
+    background-size: cover;
+}
+@media only screen and (max-width: 429px) {
+.Rw6FN {
+    position: relative;
+    width: 100%;
+    height: 124px;
+    background-position: 50%;
+
+    background-size: cover;
+}
+}
+.centerimg{
+    border-radius: 50%;
+    position: relative;
+    top: 11.1px;
+    left: 7px;
+    width:150px;
+    height:150px;
+}
+@media only screen and (max-width: 429px) {
+.centerimg{
+    border-radius: 50%;
+    position: relative;
+    top: 24.1px;
+    left: 7px;
+    width: 75px;
+    height: 75px;
+}
+}
+.bluey{
+    color: black;
+    background-color: #3dd5f3;
+    border-color: #3dd5f3;
+    border-radius: 4px;
+    position: relative;
+    left: 50%;
+    font-size: 21px;
+}
+@media only screen and (max-width: 429px) {
+.bluey{
+    color: black;
+    background-color: #3dd5f3;
+    border-color: #3dd5f3;
+    border-radius: 4px;
+    position: relative;
+    font-size: 13px;
+}
+}
+._1yhUI {
+    display: block;
+    font-family: fantasy;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.22;
+    letter-spacing: .3px;
+    line-height: normal;
+    color: var(--D8);
+    text-decoration: none;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+ ._2yhUI {
+    display: block;
+    font-family: fantasy;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.22;
+    letter-spacing: .3px;
+    line-height: normal;
+    color: var(--D8);
+    text-decoration: none;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+ 
+    color: var(--D8);
+    text-decoration: none;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+ 

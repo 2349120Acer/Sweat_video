@@ -1,0 +1,40 @@
+.seeall{
+    text-align: end;
+    position: relative;
+    font-family: fantasy;
+    color: white;
+    position: relative;
+    top: 39px;
+    font-weight: 100;
+}
+  .section-title{
+     text-align: left;
+     position: relative;
+     font-family: fantasy;
+     color: white;
+     font-size: 1.25em;
+       font-weight: 100;
+  }
+}.Pricess{
+  text-align: end;
+    position: relative;
+    top: 5px;
+    font-family: fantasy;
+    color: white;
+  font-weight: ;
+     font-weight: 100;
+}.username{
+  text-align: inherit;
+    position: relative;
+    top: 0px;
+    font-family: fantasy;
+    color: white;
+     font-weight: 100;
+}.nation{
+  text-align: inherit;
+    position: relative;
+    top: 0px;
+    font-family: fantasy;
+    color: white;
+     font-weight: 100;
+}

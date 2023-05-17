@@ -1,0 +1,16 @@
+.cta.primary--light {
+  background-color: black;
+  color: white;
+}
+.cta {
+    padding: 0.5rem 1rem;
+    border-radius: 5rem;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: "Montserrat", Helvetica, Arial, sans-serif;
+    color: white;
+    text-align: center;
+}

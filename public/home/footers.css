@@ -1,0 +1,36 @@
+
+.navbar {
+	margin: 0 auto;
+	background-color: black !important;
+	border-radius: 6px 6px 6px 6px;
+}
+.navbar ul li {
+    font-family: 'Noto Serif', serif;
+}
+.navbar ul li a {
+    display:
+    block;
+    background-color: black;
+    text-align: left;
+    padding: 14px 47px;
+    text-decoration: none;
+    font-family: system-ui;
+    font-size: 16px;
+    color: antiquewhite;
+}
+.navbar ul li a:hover {
+	color: #ffffff;
+    background-color: #000000;
+}
+
+/* LOGO */
+.navbar .logo_div {
+
+	padding-top: 5px;
+	padding-left: 40px;
+}
+.navbar .logo_div h1 {
+	color: #B9E6F2;
+	font-size: 1em;
+	font-family: 'Tangerine', cursive;
+}

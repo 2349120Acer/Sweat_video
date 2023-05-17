@@ -1,0 +1,104 @@
+
+.top-cart-row {
+  padding-top: 11px;
+}
+.top-cart-row .dropdown-cart {
+  float: right;
+  position: fixed;
+right: 60px;
+top: 83px;
+z-index: 3;
+}
+.top-cart-row .dropdown-cart .lnk-cart .items-cart-inner .total-price-basket .total-price {
+  color: #12cca7;
+  font-size: 15px;
+  font-family: fantasy;
+  font-weight: 200;
+}
+.top-cart-row .dropdown-cart .lnk-cart {
+  padding: 0px;
+  border: 1px solid #e1e1e1;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  display: inline-block;
+  color: #666666;
+  font-size: 15px;
+font-family: fantasy;
+font-weight: bold;
+}
+.top-cart-row .dropdown-cart .lnk-cart .items-cart-inner {
+  position: relative;
+}
+.top-cart-row .dropdown-cart .lnk-cart .items-cart-inner .total-price-basket {
+  padding: 13px 15px;
+  font-family: 'FjallaOneRegular';
+  text-transform: uppercase;
+  float: left;
+}
+.top-cart-row .dropdown-cart .lnk-cart .items-cart-inner .basket {
+  float: right;
+  background: #efefef;
+  padding: 12px;
+  border-left: 1px solid #e1e1e1;
+  padding: 13px 15px;
+}
+.top-cart-row .dropdown-cart .lnk-cart .items-cart-inner .basket-item-count {
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  height: 21px;
+  position: absolute;
+  right: 33px;
+  top: -13px;
+  width: 21px;
+  background: #f1c40f;
+  color: #fff;
+  font-size: 13px;
+  text-align: center;
+}
+.top-cart-row .dropdown-cart .dropdown-menu {
+  border: 1px solid #e1e1e1;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  float: right;
+  left: auto;
+  min-width: 0;
+  padding: 24px 22px;
+  right: 0;
+  width: 230px;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.top-cart-row .dropdown-cart .dropdown-menu .cart-item.product-summary .name {
+  font-size: 13px;
+  font-family: 'FjallaOneRegular';
+  margin-top: 0px;
+}
+.top-cart-row .dropdown-cart .dropdown-menu .cart-item.product-summary .name a {
+  color: #666666;
+}
+.top-cart-row .dropdown-cart .dropdown-menu .cart-item.product-summary .price {
+  font-weight: 700;
+}
+.top-cart-row .dropdown-cart .dropdown-menu .cart-item.product-summary .action {
+  padding: 0;
+  position: relative;
+  font-size: 15px;
+  right: 8px;
+  top: 8px;
+}
+.top-cart-row .dropdown-cart .dropdown-menu .cart-item.product-summary .action a {
+  color: #898989;
+}
+.top-cart-row .dropdown-cart .dropdown-menu .cart-total .text {
+  font-size: 13px;
+  font-family: 'FjallaOneRegular';
+  color: #666666;
+  margin-right: 10px;
+}
+.top-cart-row .dropdown-cart .dropdown-menu .cart-total .price {
+  font-weight: 700;
+}

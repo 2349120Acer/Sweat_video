@@ -1,0 +1,227 @@
+
+.navbar {
+	margin: 0 auto;
+    overflow: hidden;
+	background-color: #3E606F;
+    border-radius: 0px 0px 6px 6px;
+}
+.navbar ul {
+    list-style-type: none;
+    float: right;
+}
+.navbar ul li {
+    float: left;
+    font-family: 'Noto Serif', serif;
+}
+.navbar ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 28px;
+    text-decoration: none;
+}
+.navbar ul li a:hover {
+	color: #B9E6F2;
+    background-color: #334F5C;
+}
+
+/* LOGO */
+.navbar .logo_div {
+	float: left; 
+	padding-top: 5px;
+	padding-left: 40px;
+}
+.navbar .logo_div h1 {
+	color: #B9E6F2;
+	font-size: 3em;
+	letter-spacing: 5px;
+	font-weight: 100;
+	font-family: 'Tangerine', cursive;
+}
+
+/* FOOTER */
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  color: white;
+  background-color: #73707D;
+  text-align: center;
+  width: 80%;
+  margin: 20px auto 0px;
+  padding: 20px 0px;
+}
+
+/* CONTENT */
+.content {
+	margin: 28px auto;
+	border-radius: 5px;
+	min-height: 400px;
+	margin: 51px;
+}
+.content:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+.content .content-title {
+margin: 10px 0px;
+color: #fff;
+font-family: fantasy;
+}
+.content .post {
+	width: 242px;
+	margin: 9px;
+	min-height: 320px;
+	float: left;
+	border-radius: 7px;
+	position: relative;
+}
+.content .post .category {
+	margin-top: 0px;
+	padding: 3px 8px;
+	color: white;
+	background: black;
+	display: inline-block;
+	border-radius: 2px;
+	position: absolute;
+	left: 5px; top: 5px;
+	z-index: 3;
+	border-radius: 10px;
+	font-weight: bolder;
+	font-family: fantasy;
+}
+.content .post .category:hover {
+		margin-top: 0px;
+	padding: 3px 8px;
+	color: black;
+	background: white;
+	display: inline-block;
+	border-radius: 2px;
+	position: absolute;
+	left: 5px; top: 5px;
+	z-index: 3;
+	border-radius: 10px;
+	font-weight: bolder;
+	font-family: fantasy;
+	transition: .4s;
+	opacity: 0.8;
+}
+.content .post .post_image {
+	height: 260px;
+	width: 100%;
+	background-size: 100%;
+}
+.content .post .post_image {
+	width: 99%;
+	height: 25%;
+}
+.content .post .post_info {
+	height: 11%;
+	background-color: black;
+	padding: 0px 5px;
+	font-weight: 200;
+    font-family: 'Noto Serif', serif;
+}
+.content .post .post_info {
+	color: #fff;
+}
+.content .post .post_info span {
+	color: #FFF;
+	font-style: inherit;
+}
+.content .post .post_info span.read_more {
+	position: absolute;
+	right: 5px; bottom: 5px;
+}
+
+/* * * * * * * * *
+* SINGLE PAGE 
+* * * * * * * * */
+.content .post-wrapper {
+	width: 70%;
+	float: left;
+	min-height: 250px;
+}
+.full-post-div {
+	min-height: 300px;
+	padding: 20px;
+	border: 1px solid #e4e1e1;
+	border-radius: 2px;
+}
+.full-post-div h2.post-title {
+	margin: 10px auto 20px;
+	text-align: center;
+}
+.post-body-div {
+	font-family: 'Noto Serif', serif;
+	font-size: 1.2em;
+}
+.post-body-div p {
+	margin:20px 0px;
+}
+.post-sidebar {
+	width: 24%;
+	float: left;
+	margin-left: 5px;
+	min-height: 400px;
+}
+.content .post-comments {
+	margin-top: 25px;
+	border-radius: 2px;
+	border-top: 1px solid #e4e1e1;
+	padding: 10px;
+}
+.post-sidebar .card {
+	width: 95%;
+	margin: 10px auto;
+	border: 1px solid #e4e1e1;
+	border-radius: 10px 10px 0px 0px;
+}
+.post-sidebar .card .card-header {
+	padding: 10px;
+	text-align: center;
+	border-radius: 3px 3px 0px 0px;
+	background: #3E606F;
+}
+.post-sidebar .card .card-header h2 {
+	color: white;
+}
+.post-sidebar .card .card-content a {
+	display: block;
+	box-sizing: border-box;
+	padding: 8px 10px;
+	border-bottom: 1px solid #e4e1e1;
+	color: #444;
+}
+.post-sidebar .card .card-content a:hover {
+	padding-left: 20px;
+	background: #F9F9F9;
+	transition: 0.1s;
+}
+/* NOTIFICATION MESSAGES */
+.message {
+	width: 100%; 
+	margin: 0px auto; 
+	padding: 10px 0px; 
+	color: #3c763d; 
+	background: #dff0d8; 
+	border: 1px solid #3c763d;
+	border-radius: 5px; 
+	text-align: center;
+}
+.error {
+	color: #a94442; 
+	background: #f2dede; 
+	border: 1px solid #a94442; 
+	margin-bottom: 20px;
+}
+.validation_errors p {
+	text-align: left;
+	margin-left: 10px;
+}
+.logged_in_info {
+	text-align: right; 
+	padding: 10px;
+}
