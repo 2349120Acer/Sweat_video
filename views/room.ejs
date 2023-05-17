@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en" style="width: fit-content">
+<head>
+   <meta charset="utf-8">
+   <meta name="author" content="Chris Phaswana">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+   <meta name="HandheldFriendly" content="true">
+   <meta name="theme-color" content="#141414">
+   <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=0.7,user-scalable=no">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Averia+Serif+Libre|Noto+Serif|Tangerine" rel="stylesheet">
+<link rel="stylesheet" href="blogs/homes.css">
+<link rel="shortcut icon" href="assets/Photo_1669579731359.png">
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<link rel="stylesheet" href="blogs/popup.css">
+<link rel="stylesheet" href="bootstrapnews.min.css">
+   <link rel="stylesheet" href="dropup.min.css">
+<link rel="stylesheet" href="demo21.css">
+<!-- Styling for carousel area -->
+<link rel="stylesheet" href="owl.carousel.css">
+<link rel="stylesheet" href="owl.transitions.css">
+<link rel="stylesheet" href="owl.carousell.css">
+<link rel="stylesheet" href="navbar.css">
+<!-- Styling for footer area -->
+<link rel="stylesheet" href="home/footers.css">
+<!-- Styling for body area -->
+<link rel="stylesheet" href="main.css">
+<link rel="stylesheet" href="wfds.css">
+<link rel="stylesheet" href="home/coverimg.css">
+<link rel="stylesheet" href="blogs/bootstrap.min.css">
+<link rel="stylesheet" href="profile/public.css">
+<link rel="stylesheet" href="bscroll.css">
+<link rel="stylesheet" href="stylesheets/babylongrid.css">
+<!-- Styling for public area -->
+<link rel="stylesheet" href="home/hover.css">
+<link rel="stylesheet" href="gyms.css">
+<link rel="stylesheet" href="home/banners.css">
+<link rel="stylesheet" href="home/styling.css">
+<link rel="stylesheet" href="home/cartys.css">
+<link rel="stylesheet" href="home/newgrass.css">
+<link rel="stylesheet" href="browse/banner.css">
+<link rel="stylesheet" href="browse/banner.css">
+<link rel="stylesheet" href="home/bannery.css">
+<header>
+<link rel="shortcut icon" href="assets/sweat.png">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+<link rel="stylesheet" href="drops.css">
+<link rel="stylesheet" href="home/header.css">
+<link rel="stylesheet" href="favourites/style.css">
+<link rel="stylesheet" href="bootstrap.min3.css">
+<link rel="stylesheet" href="css/main12.css">
+    <script src="https://cdn.socket.io/4.5.4/socket.io.min.js" integrity="sha384-/KNQL8Nu5gCHLqwqfQjA689Hhoqgi2S84SNUxC3roTe4EhJ9AfLkp8QiQcU8AMzI" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/peerjs@1.3.1/dist/peerjs.min.js"></script>
+    <script defer src="https://unpkg.com/peerjs@1.3.1/dist/peerjs.min.js"></script>
+   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <title>Video Conference</title>
+    <script>
+      const ROOM_ID = "<%= roomId %>";
+     </script>
+ 
+</head>
+<style>
+   #video-grid {
+      width: 100%;
+   }
+   
+   video {
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+   }
+ </style>
+<body>
+   
+<!-- Top navigation -->
+<nav class="navbar navbar-expand-lg bg-light" style="color:white;   ">
+   <div class="container-fluid">
+   
+   <a class="navbar-brand" href="home">
+   <img src="sweats.png" style="width: 260px;
+   height: 17px;
+   padding-left: 3px" alt="SWEATPORTAL.png">
+   </a>
+   
+   
+   
+   
+   
+   <div class="collapse navbar-collapse" id="navbarSupportedContent">
+   <ul style="color:white" class="navbar-nav me-auto mb-2 mb-lg-0">
+   
+   
+   <li class="nav-item">
+   <a href="discover" style="font-size:17px;color:white"><i class="fa fa-search" style="color:white"></i> DISCOVER</a>
+   </li>
+   <li class="nav-item">
+   <a href="arena" style="font-size:17px;color:white"><i class="fa fa-heart" ></i> ARENA</a>
+   </li>
+   <li class="nav-item">
+   <a href="post" style="font-size:17px;color:white"><i class="fas fa-plus"></i> POST</a>
+   </li>
+   <li class="nav-item">
+   <a href="messages/users" style="font-size:17px;color:white"><i class="fas fa-heartbeat"></i> MESSAGES</a>
+   </li>
+   </ul>
+   
+   
+   
+   
+   </div>
+   <div class="input-group py-2 m-auto pr-5 position-relative" style="width:32%;z-index: 20">
+   
+   <i id="icon-search" ></i>
+   <input style="    background-color: #343434 !important;border-radius: 13px!important;" type="text" class="form-control search-input"  placeholder="Search Portal">
+   
+   </div>
+   <a href="dashboard" style="padding-left:16px" class="nav-link " href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+
+   <i class=""></i> 
+   <img  src="sweatportalprofile120382photo.png" alt="pp`" class="centers" width="35" height="35">
+   </a>
+   <ul class="dropdown-menu">
+   <li><a class="dropdown-item" href="dashboard">DASHBOARD </a></li>   
+   <li><a class="dropdown-item" href="Settings/account">SETTINGS & PRIVACY</a></li>  
+   <li><a class="dropdown-item" href="Becomeatrainer">BECOME A TRAINER</a></li>
+   <li><a class="dropdown-item" href="logout">LOGOUT</a></li>
+   
+   </ul>
+   </div>
+   
+   
+   </nav>
+   <div class="main">
+      <div class="main__left">
+         <div class="main__videos">
+            <div id="video-grid">
+            </div>
+         </div>
+         <div class="main__controls">
+            <div class="main__controls__block">
+               <div onclick="muteUnmute()" class="main__controls__button main__mute_button">
+                  <i class="fas fa-microphone"></i>
+               </div>
+               <div onclick="playStop()" class="main__controls__button main__video_button" >
+                  <i class="fas fa-video"></i>
+               </div>
+            </div>
+            <div class="main__controls__block">
+               <div class="main__controls__button">
+                  <i class="fas fa-shield-alt"></i>
+                  <span></span>
+               </div>
+               <div class="main__controls__button">
+                  <i class="fas fa-user-friends"></i>
+               </div>
+               <div class="main__controls__button">
+                  <i class="fas fa-comment-alt"></i>
+               </div>
+            </div>
+            <div class="main__controls__block">
+               <div class="main__controls__button">
+                  <a href="http://www.sweatportal.com/home">
+                  <img src="close-5758.svg" class="leave_meeting" onClick="return confirm('Are you sure you want to leave?')" style="height:29px;width:29x;border:none"/>
+               </a>
+               </div>
+            </div>
+         </div>
+      </div>
+
+   </div>
+<script src="script.js"></script>
+</body>
+</html>
