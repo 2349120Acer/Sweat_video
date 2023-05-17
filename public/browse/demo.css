@@ -1,0 +1,278 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300italic,400italic);
+@import url(https://fonts.googleapis.com/css?family=Arizonia);
+/*
+ *  Stylesheets of Babylom Demo Page
+ *  This file is using Compass
+ */
+/* line 12, ../sass/_resets.scss */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0px;
+  padding: 0px;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+.grid{
+  height: 320px;
+  width: 100%;
+}
+@media only screen and (max-width: 640px) {
+.grid{
+  height: 255px;
+  width: 100%;
+}
+}
+.containers {
+  height: fit-content;
+  max-width: 1600px;
+  min-width: 250px;
+  margin: -52px auto;
+  padding: 0px 10px;
+  margin-top: 0%;
+}
+
+.navbarly{
+   	margin: 0 auto;
+	overflow: hidden;
+	background-color: #121111;
+	border-radius: 6px 6px 6px 6px; 
+}
+
+/* line 22, ../sass/_resets.scss */
+body {
+  line-height: 1;
+}
+
+/* line 27, ../sass/_resets.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 31, ../sass/_resets.scss */
+nav ul {
+  list-style: none;
+}
+
+/* line 35, ../sass/_resets.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 40, ../sass/_resets.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 45, ../sass/_resets.scss */
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* change colours to suit your needs */
+/* line 54, ../sass/_resets.scss */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+/* change colours to suit your needs */
+/* line 61, ../sass/_resets.scss */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+/* line 68, ../sass/_resets.scss */
+del {
+  text-decoration: line-through;
+}
+
+/* line 72, ../sass/_resets.scss */
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+/* line 77, ../sass/_resets.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+/* line 83, ../sass/_resets.scss */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/* line 92, ../sass/_resets.scss */
+input, select {
+  vertical-align: middle;
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src: url("../fonts/icomoon.eot");
+  src: url("../fonts/icomoon.eot?#iefix") format("embedded-opentype"), url("../fonts/icomoon.ttf") format("truetype"), url("../fonts/icomoon.woff") format("woff"), url("../fonts/icomoon.svg#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 32, ../sass/demo.scss */
+body {
+  font-family: 'Lato', Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5em;
+  color: #99301c;
+  background: #f0e5ce;
+}
+
+/* line 40, ../sass/demo.scss */
+pre {
+  display: block;
+}
+
+/* line 44, ../sass/demo.scss */
+a {
+  color: #44bbee;
+  text-decoration: none;
+}
+footer {
+  height: 70px;
+  color: white;
+  background: #99301c;
+  text-align: center;
+  padding-top: 30px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+/* line 65, ../sass/demo.scss */
+h1 {
+  text-align: left;
+  padding-top: 50px;
+  font-size: 2em;
+  text-shadow: 1px 1px 0 #f0e5ce;
+  font-family: fantasy;
+  color:white;
+}
+
+h5{
+  font-size: 1em;
+  font-family: fantasy;
+  color: white;
+}
+/* line 74, ../sass/demo.scss */
+.container {
+  position: relative;
+  max-width: 1600px;
+  min-width: 400px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+/* line 82, ../sass/demo.scss */
+h2 {
+  font-size: 2.5em;
+  line-height: 1.5em;
+  margin: 10px;
+  padding-top: 50px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+/* line 91, ../sass/demo.scss */
+article {
+  background: #fff;
+  -webkit-border-radius: 2px 2px;
+  -moz-border-radius: 2px / 2px;
+  border-radius: 2px / 2px;
+  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  margin: 20px 10px;
+  overflow: hidden;
+}
+/* line 97, ../sass/demo.scss */
+article .title {
+  background: #99301c;
+  color: white;
+  text-align: center;
+  padding: 15px 20px;
+  font-size: 1.3em;
+  margin-bottom: 10px;
+  font-weight: 300;
+  font-style: italic;
+  border-bottom: 5px solid #832918;
+}
+/* line 108, ../sass/demo.scss */
+article .desc {
+  padding: 20px;
+  color: #000;
+  font-style: italic;
+}
+/* line 113, ../sass/demo.scss */
+article.donate {
+  background: #99301c;
+}
+/* line 115, ../sass/demo.scss */
+article.donate .desc {
+  color: white;
+  font-size: 1.2em;
+  text-align: center;
+  font-weight: 300;
+  font-style: italic;
+}
+
+/* line 125, ../sass/demo.scss */
+.fixed {
+  min-height: 100px;
+  color: #fff;
+  background: black;
+  margin: 20px;
+}
+
+
+@media screen and (min-width: 600px) {
+  containers {
+    position: relative;
+  max-width: 2900px;
+  min-width: 250px;
+  margin: 0 auto;
+  padding: 0 10px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  body {
+    background-color: lavender;
+  }
+}

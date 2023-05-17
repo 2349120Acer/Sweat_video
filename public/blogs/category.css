@@ -1,0 +1,37 @@
+.w5-quarter{width: 100%;}
+
+.w5-quarter,.w3-row-padding>.w3-col{padding: 0px 5px;height: 26%;background-position: center;background-repeat: no-repeat;background-size: cover;position: relative;margin-top: 7px;margin-bottom: 0%;}
+
+.grid-image{
+border-radius: 0px !important;
+}
+
+@media only screen and (max-width: 1540px) {
+.w3-row-padding>.w3-quarter{
+  padding: 0px 5px;
+  height: 14%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+}
+
+@media only screen and (max-width: 1540px) {
+.w5-row-padding>.w5-quarter{
+  padding: 0px 5px;
+  height: 14%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+}
+.caro{
+vertical-align:middle;
+    border-radius: 9px;
+    box-shadow:none !important ;
+    object-fit: cover;}
+a{
+    color:inherit
+}

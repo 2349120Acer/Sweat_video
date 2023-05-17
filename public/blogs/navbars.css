@@ -1,0 +1,49 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #699;
+}
+.seeall{
+    text-align: end;
+    position: relative;
+    top: 23px;
+    font-family: fantasy;
+    color: white;
+    font-weight: bold;
+}.Pricess{
+  text-align: end;
+    position: relative;
+    top: 5px;
+    font-family: fantasy;
+    color: white;
+  font-weight: ;
+}.username{
+  text-align: inherit;
+    position: relative;
+    top: -21px;
+    font-family: fantasy;
+    color: white;
+}.nation{
+  text-align: inherit;
+    position: relative;
+    top: -27px;
+    font-family: fantasy;
+    color: white;

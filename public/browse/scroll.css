@@ -1,0 +1,66 @@
+div.scrollmenu {
+  background-color: black;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  color: white;
+  text-align: left;
+  padding: 1px;
+  text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+  background-color: #002;
+} 
+.scrolly {
+    width: 260px;
+    height: 268px;
+}
+@media only screen and (max-width: 640px) {
+.scrolly {
+width: 190px;
+height: 210px;
+}
+}
+
+.scrollmenu::-webkit-scrollbar {
+    width: 1em;
+    height: 0.4em;
+}
+.scrollmenu::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+.scrollmenu::-webkit-scrollbar-thumb {
+      background-color:dimgrey;
+    border-radius: 100vw;
+}
+.scrollmenu::-webkit-scrollbar-thumb:hover {
+      background-color: azure;
+}
+@media only screen and (max-width: 640px) {
+.scrollmenu::-webkit-scrollbar {
+    width: 1em;
+    height: 0.4em;
+}
+}
+@media only screen and (max-width: 640px) {
+.scrollmenu::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+}
+
+@media only screen and (max-width: 640px) {
+.scrollmenu::-webkit-scrollbar-thumb {
+      background-color:transparent;
+    border-radius: 100vw;
+}
+}
+
+@media only screen and (max-width: 640px) {
+.scrollmenu::-webkit-scrollbar-thumb:hover {
+      background-color: azure;
+}
+}
